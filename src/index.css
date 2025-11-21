@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  background-color: #111827; /* Matching the dark theme */
+  background-color: #111827; /* Matches bg-gray-900 */
 }
