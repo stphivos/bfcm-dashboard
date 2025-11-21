@@ -1,6 +1,7 @@
 export default {
   plugins: {
-    tailwindcss: {},
+    // FIX: Use the specific PostCSS package requested by the Vercel build environment
+    "@tailwindcss/postcss": {},
     autoprefixer: {},
   },
 }
